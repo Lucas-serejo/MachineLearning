@@ -78,19 +78,19 @@ Após a agregação, o modelo global foi atualizado e redistribuído para os cli
 ## 🧪 Avaliação e Resultados
 
 ### 📈 Modelo Federado
-- **Acurácia final após 5 rodadas:** `75.06%`  
-- **Perda final:** `0.6953`
+- **Acurácia final após 5 rodadas:** `85.90%`  
+- **Perda final:** `0.3962`
 
 ### 🏁 Modelo Centralizado
-- **Acurácia:** `82.08%`  
-- **Perda:** `0.5020`
+- **Acurácia:** `86.99%`  
+- **Perda:** `0.3709`
 
 ### 📊 Comparativo
 
 | Modelo               | Acurácia | Perda |
 |----------------------|----------|--------|
-| Federado (5 rounds)  | 75.06%   | 0.6953 |
-| Centralizado         | 82.08%   | 0.5020 |
+| Federado (5 rounds)  | 85.90%  | 0.3962 |
+| Centralizado         | 86.99%   | 0.3709 |
 
 > _Observação: o modelo centralizado apresentou melhor desempenho, como esperado, pois treina com o conjunto completo e homogêneo. Ainda assim, o modelo federado teve desempenho competitivo sem precisar centralizar os dados._
 
